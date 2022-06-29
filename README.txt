@@ -39,3 +39,37 @@ frontend
     //Toastify https://fkhadra.github.io/react-toastify/introduction/
     npm install react-toastify
 npm install react-i18next i18next i18next-http-backend i18next-browser-languagedetector styled-components react-router-dom sass @reduxjs/toolkit react-redux axios react-helmet react-toastify
+
+3.
+backend
+    cd backend
+    npm init -y
+
+    //Cors :https://github.com/expressjs/cors#simple-usage-enable-all-cors-requests
+    npm install cors
+
+    //Dotenv :https://github.com/motdotla/dotenv#usage
+    npm i dotenv
+
+    //Express :http://expressjs.com/en/starter/installing.html
+    npm i express
+
+    //Morgan :https://github.com/expressjs/morgan
+    npm i morgan
+
+    //Jsonwebtoken :https://www.npmjs.com/package/jsonwebtoken
+    npm i jsonwebtoken
+
+    //PostgreSQL :https://node-postgres.com/
+    npm i pg
+
+    //Bcryptjs :https://github.com/dcodeIO/bcrypt.js#readme
+    npm i bcryptjs
+
+    //Multer :https://github.com/expressjs/multer#readme
+     npm i multer
+    Hoặc
+    //Cloudinary :https://cloudinary.com/documentation/node_quickstart
+    npm i cloudinary
+
+npm install cors dotenv express morgan jsonwebtoken pg bcryptjs multer cloudinary
